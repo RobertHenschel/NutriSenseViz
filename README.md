@@ -7,6 +7,9 @@ This notebook takes the exported data from NutriSense as input and produces a [p
 # second-chart.ipynb
 This builds on first-chart.ipynb and smoothes the curve, adds interpolated values and axis titles.
 
+# chart-with-events.ipynb
+Building on second-chart.ipynb, this notebook adds events like meals and exercise to the chart.
+
 # first-analysis.ipynb
 Building on second-chart.ipynb, this notebook calculates a few simple glucose statistics for every day and then plots the data.
 

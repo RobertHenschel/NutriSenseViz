@@ -14,4 +14,4 @@ Building on second-chart.ipynb, this notebook adds events like meals and exercis
 Building on second-chart.ipynb, this notebook calculates a few simple glucose statistics for every day and also creates a graph of multiple days of glucose measurements.
 
 # chart-one-day.ipynb
-This notebook builds on first-chart.ipynb and first-analysis.ipynb and produces a more advanced chart, that smooths the data, includes exercise and meal "events" that came with the data export from NutriSense and also includes glucose metrics.
+This notebook builds on second-chart.ipynb and first-analysis.ipynb and produces a more advanced chart, that smooths the data, includes exercise and meal "events" that came with the data export from NutriSense and also includes glucose metrics.

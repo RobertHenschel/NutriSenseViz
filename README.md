@@ -15,3 +15,6 @@ Building on second-chart.ipynb, this notebook calculates a few simple glucose st
 
 # chart-one-day.ipynb
 This notebook builds on second-chart.ipynb and first-analysis.ipynb and produces a more advanced chart, that smooths the data, includes exercise and meal "events" that came with the data export from NutriSense and also includes glucose metrics.
+
+# chart-one-day-with-external-data.ipynb
+This notebook builds on chart-one-day.ipynb and adds sleep data. The sleep data is not coming from the NutriSense data export but is read from an Excel file that I keep for tracking purposes. The notebook uses [openpyxl](https://openpyxl.readthedocs.io/en/stable/) for reading the Excel file.

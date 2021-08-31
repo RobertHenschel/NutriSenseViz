@@ -20,4 +20,7 @@ This notebook builds on second-chart.ipynb and first-analysis.ipynb and produces
 This notebook builds on chart-one-day.ipynb and adds sleep data. The sleep data is not coming from the NutriSense data export but is read from an Excel file that I keep for tracking purposes. The notebook uses [openpyxl](https://openpyxl.readthedocs.io/en/stable/) for reading the Excel file.
 
 # chart-one-day-with-garmin.ipynb
-This notebook is very similar to chart-one-day.ipynb in that it charts one day of data, but it replaces "running activities" that came from the NutriSense data export with activities that are imported from Garmin Connect. In order to run this, you will need an account on Garmin Connect, which normally means that you are using a Garmin watch as your fitness tracker.
+This notebook is very similar to chart-one-day.ipynb in that it charts one day of data, but it replaces "running activities" that came from the NutriSense data export with activities that are imported from Garmin Connect. In order to run this, you will need an account on Garmin Connect, which normally means that you are using a Garmin watch as your fitness tracker. This notebook requires the [Python GarminConnect package](https://pypi.org/project/garminconnect/).
+
+# chart-one-day-with-garmin-steps.ipynb
+This notebook builds on chart-one-day-with-garmin.ipynb and not only adds run activities to the chart but also step data.

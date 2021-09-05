@@ -24,3 +24,9 @@ This notebook is very similar to chart-one-day.ipynb in that it charts one day o
 
 # chart-one-day-with-garmin-steps.ipynb
 This notebook builds on chart-one-day-with-garmin.ipynb and not only adds run activities to the chart but also step data.
+
+# chart-one-day-with-garmin-steps-and-sleep.ipynb
+This notebook pulls it all together and charts one day of data, using every data source that was introduced in the other notebooks.
+
+# chart-one-day-with-garmin-steps-and-sleep-multiple-days.ipynb
+This is the same code as chart-one-day-with-garmin-steps-and-sleep.ipynb, but it plots multiple days in separate plotly charts.
